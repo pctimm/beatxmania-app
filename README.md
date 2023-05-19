@@ -1,29 +1,32 @@
-# Saturday Night Vibin' 🎸#
-É um jogo de rítmo; 🎵
+# beatXmania-app 🎸#
+_OBS: Versão do README em português disponível na raiz do repositório :)_
 
-Clone simples no estilo Beatmania/Guitar Hero com uma música de demonstração já pré-instalada (Saria's Song, do The Legend of Zelda).
+It's a rhythm game; 🎵
 
-### Como instalar? ###
-1. Baixando
-	a. pode-se realizar o _clone_ deste repositório: `git clone ...`
-	b. baixar o arquivo .zip do repositório, extraindo utilizando programa como o 7-Zip, WinRAR ou similar.
-2. Abrir o arquivo .html no navegador de sua preferência.
+A simple clone of a Beatmania/Guitar Hero styled game with a pre-installed demo song (Saria's Song, from The Legend of Zelda).
 
-### Como jogar? ###
-Para iniciar o jogo, basta clicar em qualquer lugar da janela.
+### How to install? ###
+1. Downloading
+	a. you can clone this repository through prompting: `git clone https://github.com/pctimm/beatxmania-app.git`;
 
-Após isso, posicionar os dedos da mão esquerda nas teclas S, D e F (sentindo o relevo na tecla F com dedo indicador) e os da mão esquerda nas teclas J, K e L (com o relevo com o indicador na tecla J). Ou seja, 6 notas.
+	b. or downloading the repo's .zip file, extracting it by a program such as 7-zip, WinRAR or similar.
+2. Open the .html on the browser of your preference.
 
-A contagem de regressiva de três segundos irá tocar, após isso as notas aparecerão de baixo para cima.
+### How to play? ###
+To run the game, just click anywhere on the screen.
 
-Para reiniciar, recarregar a página com F5.
+Then, place your left hand fingers on the S, D and F keys(feeling the bump on the F key with your index finger) and the right hand fingers on the J, K and L keys (feeling the bump with the index on the J key), that means, 6 notes.
 
-#### Mais info ####
-O contador de "Ticks" representa na verdade a quantidade de quadros renderizados pelo loop do jogo, que estará executando a 60 FPS.
+The three second countdown will play, then the song's notes will spawn from the bottom to the top of the screen..
 
-Dois elementos de dificuldade do jogo podem ser alterados: velocidade das notas e margem de erro para contar como acerto. Para isso, verificar os "ticks para 50vh" e margemErroVh, dentro do arquivo `gamecycle.js`.
+To restart, refresh the page with F5.
+
+#### More info ####
+The "Tick Counter" actually represents the number of rendered frames by the game loop, with is executing at 60 FPS.
+
+Two factor of difficulty and be changed: the note velocity and margin of error for the hits. To do it, note the "ticks para 50 vh" and "margemErroVh" inside the archive `gamecycle.js`.
 
 ***
 
-⚡ Desenvolvido por Patrick Timm utilizando HTML, CSS e JS. 🖥️
+⚡ Developed by Patrick Timm with HTML, CSS and JS. 🖥️
 
