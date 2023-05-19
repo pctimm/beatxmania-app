@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: black;
+    overflow-y: hidden;
+
+    transition: background-color 200ms ease-in;
+}
+
+.cima, .baixo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.game-info {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30pt;
+}
+
+.enunciado {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.teclas-enunciado {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 30pt;
+}
+
+.tecla-demo {
+    border-radius: 10px;
+    width: 30pt;
+    height: 30pt;
+    font-size: 25pt;
+    border: 1px solid wheat;
+    text-align: center;
+}
+
+.trilhas {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100vh;
+}
+
+.linha-click {
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(103, 111, 178);
+    position: fixed;
+    bottom: 50vh;
+    left: 0;
+    z-index: 3;
+}
+
+.tecla-segmento {
+    width: 100px;
+    border-left: 1px solid rgb(68, 68, 68);
+    border-right: 1px solid rgb(68, 68, 68);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(68, 68, 68));
+
+    transition: background-color 180ms ease-in-out;
+
+    z-index: 5;
+}
+
+.nota {
+    width: inherit;
+    height: 30px;
+    background-color: rgb(184, 184, 0);
+    opacity: 1;
+    transition: opacity 300ms;
+
+    z-index: 2;
+
+    position: absolute;
+    bottom: -10;
+}
